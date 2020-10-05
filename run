@@ -1,6 +1,6 @@
 #!/bin/bash
 
-gitpath=https://raw.githubusercontent.com/aws-samples/managing-eks-clusters-with-rancher/master
+gitpath=https://raw.githubusercontent.com/Peekay777/managing-eks-clusters-with-rancher/master
 
 #Deploy a persistent volume for InfluxDB container
 kubectl create -f ${gitpath}/influxdb-pvc.yaml
