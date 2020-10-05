@@ -1,7 +1,7 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: influxdbvolclaim
+  name: influxdbvolclaim2
   namespace: ns-citibike
 spec:
   accessModes:
